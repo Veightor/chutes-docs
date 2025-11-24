@@ -1,0 +1,19 @@
+name: Trigger Docs Sync
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+
+jobs:
+  trigger-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch Sync Event
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.CHUTES_WEB_PAT }}
+          repository: rayonlabs/chutes-web
+          event-type: docs_updated
