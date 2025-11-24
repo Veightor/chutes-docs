@@ -294,23 +294,6 @@ async def setup(self):
 Chutes uses **pay-per-use** pricing:
 
 - **Compute**: Per GPU-second of actual usage
-- **Memory**: Per GB-second of RAM usage
-- **Network**: Per GB of data transfer
-- **Storage**: Per GB of persistent storage
-
-**No charges for:**
-
-- Idle time (scaled to zero)
-- Failed requests
-- Development/testing (generous free tier)
-
-### What's included in the free tier?
-
-- **Compute**: 100 GPU-hours per month
-- **Memory**: 1TB-hours of RAM
-- **Network**: 100GB egress
-- **Storage**: 50GB persistent storage
-- **Support**: Community support
 
 ### How can I control costs?
 
@@ -356,7 +339,6 @@ Yes! We offer:
 
 - **Startup credits**: Up to $10,000 for qualifying startups
 - **Enterprise pricing**: Custom rates for large usage
-- **Research grants**: Free credits for academic research
 - **Volume discounts**: Automatic discounts at usage tiers
 
 Fill in [this form](https://forms.rayonlabs.ai/chutes-sales) to contact sales.
@@ -608,7 +590,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
       - name: Install Chutes
         run: pip install chutes
       - name: Deploy
