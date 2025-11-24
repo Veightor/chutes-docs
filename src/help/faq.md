@@ -167,7 +167,7 @@ chute = Chute(
 
 ### Can I deploy the same model multiple times?
 
-Yes! You can have multiple deployments:
+Yes!You can have multiple deployments:
 
 ```python
 # Production deployment
