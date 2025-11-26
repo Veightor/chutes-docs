@@ -13,7 +13,7 @@ Chutes is a serverless AI compute platform that lets you deploy and scale AI mod
 - Deploy AI models in minutes, not hours
 - Pay only for actual compute time used
 - Automatic scaling from 0 to hundreds of instances
-- Access to latest GPU hardware (H100, A100, etc.)
+- Access to latest GPU hardware (H200, Mi300x, B200, etc.)
 - No DevOps or Kubernetes knowledge required
 
 ### How is Chutes different from other platforms?
