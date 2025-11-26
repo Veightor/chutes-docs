@@ -49,6 +49,7 @@ Yes! Chutes is designed for production workloads with:
 
 - 99.9% uptime SLA
 - Enterprise security and compliance
+- Confidential Compute with Trusted Execution Environments (TEE)
 - Global edge deployment
 - Automatic failover and recovery
 - 24/7 monitoring and support
